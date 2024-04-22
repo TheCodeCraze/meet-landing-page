@@ -118,3 +118,69 @@
     line-height: 26px;
   }
 }
+
+@media screen and (max-width: 750px) {
+  .content {
+    justify-content: center;
+    gap: 16px;
+  }
+
+  .image-left,
+  .image-right {
+    width: 279px;
+    height: 233px;
+  }
+
+  .text {
+    height: auto;
+  }
+
+  .title {
+    width: 290px;
+    height: 88px;
+    font-size: 40px;
+    line-height: 44px;
+  }
+
+  .description {
+    width: 327px;
+    height: 78px;
+    margin: 24px 0 32px;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .hero {
+    height: 861px;
+    padding: 48px 0 176px;
+    gap: 54px;
+  }
+
+  .content {
+    flex-direction: column;
+    justify-content: unset;
+    gap: 48px;
+  }
+
+  .image-left {
+    content: url("/tablet/image-hero.png");
+    width: 414px;
+    height: 153px;
+  }
+
+  .image-right {
+    display: none;
+  }
+
+  .cta {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .cta > * {
+    height: 58px;
+  }
+}

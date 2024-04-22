@@ -111,3 +111,35 @@
     font-size: 16px;
   }
 }
+
+@media screen and (max-width: 700px) {
+  .features {
+    height: 926px;
+    padding: 92px 24px 176px;
+  }
+
+  .images {
+    width: 327px;
+    height: 310px;
+    justify-content: unset;
+    flex-wrap: wrap;
+    gap: 24px 25px;
+  }
+
+  .image {
+    width: 151px;
+    height: 143px;
+  }
+
+  .text {
+    width: 327px;
+    height: 284px;
+  }
+
+  .title {
+    width: 100%;
+    margin: 24px 0 32px;
+    font-size: 32px;
+    line-height: 36px;
+  }
+}

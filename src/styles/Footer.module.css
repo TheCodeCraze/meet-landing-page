@@ -131,3 +131,29 @@
     text-align: center;
   }
 }
+
+@media screen and (max-width: 650px) {
+  .footer {
+    padding: 92px 24px 72px;
+  }
+
+  .title {
+    width: 327px;
+    height: 72px;
+    font-size: 32px;
+    line-height: 36px;
+  }
+
+  .description {
+    width: 327px;
+    height: 72px;
+    margin: 24px 0 32px;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .footer::before {
+    background: url("/mobile/image-footer.jpg") top left no-repeat;
+    background-size: cover;
+  }
+}
