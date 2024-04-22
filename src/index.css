@@ -1,0 +1,19 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 18px;
+}
+
+body {
+  width: 100%;
+  max-width: 1440px;
+  height: 100%;
+  background: #fafafa;
+  font-family: "Red Hat Display", sans-serif;
+}
