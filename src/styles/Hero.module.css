@@ -85,3 +85,36 @@
 .cta-explore:hover {
   background: #b18bdd;
 }
+
+@media screen and (max-width: 1200px) {
+  .hero {
+    height: 969px;
+    padding: 48px 0 192px;
+  }
+
+  .content {
+    width: 820px;
+    height: 637px;
+    flex-wrap: wrap;
+  }
+
+  .text {
+    order: 1;
+    width: 457px;
+    height: 262px;
+    margin: 0 auto;
+    align-self: flex-end;
+  }
+
+  .title {
+    width: 339px;
+    height: 96px;
+    font-size: 48px;
+    line-height: 48px;
+  }
+
+  .description {
+    font-size: 16px;
+    line-height: 26px;
+  }
+}

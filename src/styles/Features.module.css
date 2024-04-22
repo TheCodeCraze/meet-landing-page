@@ -86,3 +86,28 @@
   border: 1px solid hsla(240, 10%, 57%, 0.25);
   border-radius: 100%;
 }
+
+@media screen and (max-width: 1130px) {
+  .features {
+    height: 731px;
+    padding: 95px 0 192px;
+  }
+
+  .images {
+    width: 689px;
+    height: 156px;
+  }
+
+  .image {
+    width: 164px;
+    height: 156px;
+  }
+
+  .text {
+    width: 573px;
+  }
+
+  .description {
+    font-size: 16px;
+  }
+}
