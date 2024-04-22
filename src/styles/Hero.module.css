@@ -17,6 +17,14 @@
   align-items: center;
 }
 
+.image-left {
+  align-self: flex-start;
+}
+
+.image-right {
+  align-self: flex-end;
+}
+
 .text {
   width: 540px;
   height: 304px;
